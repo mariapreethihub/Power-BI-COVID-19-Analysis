@@ -82,6 +82,11 @@
       4.Mortality Rate:
 
          * Global mortality rate was at peak at the begining but began to stabilize in subsequent months.
+         
+      5.Filters and Bookmarks
+
+         * Filters are added to analyze trends over specific date range.
+         * Bookmarks are included for US,China and India for easy access.
 
 
 **US Analysis:**
