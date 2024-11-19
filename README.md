@@ -1,4 +1,4 @@
-# COVID-19-Analysis
+# COVID-19-Global Analysis
 
  **Table of Contents:**
  
@@ -9,13 +9,14 @@
      5.Dax Calculation
      6.Data Visualization
      7.Key findings and insight
+     8.Recommendation
     
 
 **Project  Overview :**
 
-    In this POWER BI project, i have analysed the paramters to arrive at various metrics of the dataset.This project 
-    involves several stages, including ETL (Extract, Transform, Load) using Power Query, data modelling, DAX calculations,
-    and data visualization.  
+      This repository provides an interactive analysis of COVID-19 statistics globally and within the United States,
+      visualized using a dashboard. The data highlights key trends, insights, and critical statistics about confirmed 
+      cases, deaths, recoveries, and mortality rates.
 
 **Datasource :** 
 
@@ -61,28 +62,52 @@
 
 **Key findings and insight:**
 
-   COVID 19 Analysis:
+  **Global Analysis:**
+  
+     1.Total Cases Overview:
 
-       1.Total Summary:
-       
-          *	Total Confirmed Cases: 829 Million cases were reported.
-          * Total Active Cases:397 Million.
-          * Total Recovered Cases:388 Million were recovered.
-          * Total Death Cases :43 Million.
-          
-       2. Slicers:
-         *	We have slicers for WHO Region and Country to get more tailored insights from the data.
-
-       3. World wide confirmed cases:
-       
-          * Map 
-
+          * 829M total confirmed cases worldwide.
+          * 397M active cases and 388M recoveries.
+          * 43M total deaths, with the US having the highest fatalities (11M).
      
-   
-      
+     2.Top Affected Countries:
+
+          * US leads in active cases (156.9M) and total deaths.
+          * Other affected countries include Brazil, UK, and India.
+          
+      3.Monthly Trends:
+
+          * Confirmed cases have shown exponential growth, with a rapid rise between March and July.
+          
+      4.Mortality Rate:
+
+         * Global mortality rate was at peak at the begining but began to stabilize in subsequent months.
+
+
+**US Analysis:**
+
+    1.State-wise Data:
+
+         * New York leads in confirmed cases (39M) and deaths (3.17M), followed by California and New Jersey.
+         * States like Texas, Florida, and Illinois are also on higher side.
+         
+    2. National Averages:
+
+        * Mortality Rate: 2.44%
+        * Confirmed Cases (per region): 357.84M on average.
+        
+   3.Geographical Spread:
+
+        * The heatmap indicates the concentration of cases across the United States, with heavier clusters in major
+           metropolitan regions.
+
          
   **Recommendation:**
   
-  
+        * Focus on countries with high active cases and mortality rates, such as the US and Brazil, to boost healthcare 
+          infrastructure and vaccination efforts.
+        * Monitor recovery rates to assess healthcare effectiveness.
+       
 
+     
 
